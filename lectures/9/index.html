@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet"/>
+        <meta content="width=device-width" name="viewport"/>
+        <meta content="en" http-equiv="Content-Language"/> <!-- suppress Google Translate in Chrome -->
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+        <script>
+
+            $(function() {
+                $("div.etag").tooltip({
+                    animation: false,
+                    placement: 'left'
+                });
+            });
+
+        </script>
+        <style>
+
+            .date {
+                color: #ccc;
+            }
+
+            .download, .download a, .torrent, .torrent a {
+                color: #ccc;
+                font-size: small;
+                padding-left: 1ex;
+            }
+
+            .etag {
+                color: #ccc;
+            }
+
+            .parent {
+                letter-spacing: 5px;
+            }
+
+        </style>
+        <title>cdn.cs75.net</title>
+    </head>
+    <body>
+        <table class="table table-condensed table-striped">
+                            <tr><td colspan="4"><a class="parent" href="../">../</a></td></tr>
+                                        <tr>
+                                            <td>
+                            <a href="lecture9.mp3">lecture9.mp3</a>
+                            <a class="download" href="lecture9.mp3?download">download</a>
+                            <a class="torrent" href="lecture9.mp3?torrent">torrent</a>
+                        </td>
+                        <td>
+                            <div class="size">
+                                97 MB                            </div>
+                        </td>
+                        <td><div class="date">Thu, 23 Aug 2012 08:24:56 -0400</div></td>
+                        <td><div class="etag" data-toggle="tooltip" title="MD5">d65407cddff01cf56138bd896c459317</div></td>
+                                    </tr>
+                            <tr>
+                                            <td>
+                            <a href="lecture9.mp4">lecture9.mp4</a>
+                            <a class="download" href="lecture9.mp4?download">download</a>
+                            <a class="torrent" href="lecture9.mp4?torrent">torrent</a>
+                        </td>
+                        <td>
+                            <div class="size">
+                                493 MB                            </div>
+                        </td>
+                        <td><div class="date">Thu, 23 Aug 2012 08:25:32 -0400</div></td>
+                        <td><div class="etag" data-toggle="tooltip" title="MD5">86bbf1b27bf68eda84c5100f3270a361</div></td>
+                                    </tr>
+                            <tr>
+                                            <td>
+                            <a href="lecture9.pdf">lecture9.pdf</a>
+                            <a class="download" href="lecture9.pdf?download">download</a>
+                            <a class="torrent" href="lecture9.pdf?torrent">torrent</a>
+                        </td>
+                        <td>
+                            <div class="size">
+                                874 KB                            </div>
+                        </td>
+                        <td><div class="date">Thu, 23 Aug 2012 08:30:08 -0400</div></td>
+                        <td><div class="etag" data-toggle="tooltip" title="MD5">4423700335d42cdcd0987a826906a143</div></td>
+                                    </tr>
+                    </table>
+    </body>
+</html>

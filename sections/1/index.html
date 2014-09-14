@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet"/>
+        <meta content="width=device-width" name="viewport"/>
+        <meta content="en" http-equiv="Content-Language"/> <!-- suppress Google Translate in Chrome -->
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+        <script>
+
+            $(function() {
+                $("div.etag").tooltip({
+                    animation: false,
+                    placement: 'left'
+                });
+            });
+
+        </script>
+        <style>
+
+            .date {
+                color: #ccc;
+            }
+
+            .download, .download a, .torrent, .torrent a {
+                color: #ccc;
+                font-size: small;
+                padding-left: 1ex;
+            }
+
+            .etag {
+                color: #ccc;
+            }
+
+            .parent {
+                letter-spacing: 5px;
+            }
+
+        </style>
+        <title>cdn.cs75.net</title>
+    </head>
+    <body>
+        <table class="table table-condensed table-striped">
+                            <tr><td colspan="4"><a class="parent" href="../">../</a></td></tr>
+                                        <tr>
+                                            <td>
+                            <a href="section1.mp3">section1.mp3</a>
+                            <a class="download" href="section1.mp3?download">download</a>
+                            <a class="torrent" href="section1.mp3?torrent">torrent</a>
+                        </td>
+                        <td>
+                            <div class="size">
+                                30 MB                            </div>
+                        </td>
+                        <td><div class="date">Thu, 23 Aug 2012 08:30:10 -0400</div></td>
+                        <td><div class="etag" data-toggle="tooltip" title="MD5">26bcf67508ed5fc540d53f79a06558ec</div></td>
+                                    </tr>
+                            <tr>
+                                            <td>
+                            <a href="section1.mp4">section1.mp4</a>
+                            <a class="download" href="section1.mp4?download">download</a>
+                            <a class="torrent" href="section1.mp4?torrent">torrent</a>
+                        </td>
+                        <td>
+                            <div class="size">
+                                266 MB                            </div>
+                        </td>
+                        <td><div class="date">Thu, 23 Aug 2012 08:30:45 -0400</div></td>
+                        <td><div class="etag" data-toggle="tooltip" title="MD5">4805ecbac5a3c28266732098c0fde463</div></td>
+                                    </tr>
+                            <tr>
+                                            <td>
+                            <a href="section1.pdf">section1.pdf</a>
+                            <a class="download" href="section1.pdf?download">download</a>
+                            <a class="torrent" href="section1.pdf?torrent">torrent</a>
+                        </td>
+                        <td>
+                            <div class="size">
+                                1 MB                            </div>
+                        </td>
+                        <td><div class="date">Sun, 29 Sep 2013 19:51:51 -0400</div></td>
+                        <td><div class="etag" data-toggle="tooltip" title="MD5">42af81cddeb58979f28bd0fe7f231296</div></td>
+                                    </tr>
+                            <tr>
+                                            <td>
+                            <a href="section1.zip">section1.zip</a>
+                            <a class="download" href="section1.zip?download">download</a>
+                            <a class="torrent" href="section1.zip?torrent">torrent</a>
+                        </td>
+                        <td>
+                            <div class="size">
+                                83 KB                            </div>
+                        </td>
+                        <td><div class="date">Sun, 29 Sep 2013 19:51:52 -0400</div></td>
+                        <td><div class="etag" data-toggle="tooltip" title="MD5">c02773d166baee1b682b199b5fffe34a</div></td>
+                                    </tr>
+                    </table>
+    </body>
+</html>

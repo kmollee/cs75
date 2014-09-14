@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet"/>
+        <meta content="width=device-width" name="viewport"/>
+        <meta content="en" http-equiv="Content-Language"/> <!-- suppress Google Translate in Chrome -->
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+        <script>
+
+            $(function() {
+                $("div.etag").tooltip({
+                    animation: false,
+                    placement: 'left'
+                });
+            });
+
+        </script>
+        <style>
+
+            .date {
+                color: #ccc;
+            }
+
+            .download, .download a, .torrent, .torrent a {
+                color: #ccc;
+                font-size: small;
+                padding-left: 1ex;
+            }
+
+            .etag {
+                color: #ccc;
+            }
+
+            .parent {
+                letter-spacing: 5px;
+            }
+
+        </style>
+        <title>cdn.cs75.net</title>
+    </head>
+    <body>
+        <table class="table table-condensed table-striped">
+                            <tr><td colspan="4"><a class="parent" href="../">../</a></td></tr>
+                                        <tr>
+                                            <td>
+                            <a href="lectures.php">lectures.php</a>
+                            <a class="download" href="lectures.php?download">download</a>
+                            <a class="torrent" href="lectures.php?torrent">torrent</a>
+                        </td>
+                        <td>
+                            <div class="size">
+                                399 B                            </div>
+                        </td>
+                        <td><div class="date">Thu, 23 Aug 2012 07:59:19 -0400</div></td>
+                        <td><div class="etag" data-toggle="tooltip" title="MD5">cd5020cf7e0b8c9f8f26ac28306784cb</div></td>
+                                    </tr>
+                            <tr>
+                                            <td>
+                            <a href="lectures.xml">lectures.xml</a>
+                            <a class="download" href="lectures.xml?download">download</a>
+                            <a class="torrent" href="lectures.xml?torrent">torrent</a>
+                        </td>
+                        <td>
+                            <div class="size">
+                                2 KB                            </div>
+                        </td>
+                        <td><div class="date">Thu, 23 Aug 2012 07:59:19 -0400</div></td>
+                        <td><div class="etag" data-toggle="tooltip" title="MD5">de98d5175cb06a343f0dce4654b9cb4d</div></td>
+                                    </tr>
+                            <tr>
+                                            <td>
+                            <a href="rss1.php">rss1.php</a>
+                            <a class="download" href="rss1.php?download">download</a>
+                            <a class="torrent" href="rss1.php?torrent">torrent</a>
+                        </td>
+                        <td>
+                            <div class="size">
+                                497 B                            </div>
+                        </td>
+                        <td><div class="date">Thu, 23 Aug 2012 07:59:19 -0400</div></td>
+                        <td><div class="etag" data-toggle="tooltip" title="MD5">6fd54e43ce0a1fd484798af5892d1bfc</div></td>
+                                    </tr>
+                            <tr>
+                                            <td>
+                            <a href="rss2.php">rss2.php</a>
+                            <a class="download" href="rss2.php?download">download</a>
+                            <a class="torrent" href="rss2.php?torrent">torrent</a>
+                        </td>
+                        <td>
+                            <div class="size">
+                                628 B                            </div>
+                        </td>
+                        <td><div class="date">Thu, 23 Aug 2012 07:59:20 -0400</div></td>
+                        <td><div class="etag" data-toggle="tooltip" title="MD5">3200d0763089c644da4f992c992b9729</div></td>
+                                    </tr>
+                    </table>
+    </body>
+</html>
