@@ -5,7 +5,7 @@ change file or directory permission
 ```shell
 find . -type d | xargs chmod 711
 find . -type f | xargs chmod 644
-find . -name ".php" | xargs chmod 600
+find . -name "*.php" | xargs chmod 600
 ```
 
 refer
